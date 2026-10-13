@@ -1,0 +1,18 @@
+# OS / editor noise
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime locks — machine-local, not content
+.locks/
+*.lock
+
+# Local usage counters (machine noise, no backup value)
+.usage.json
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
